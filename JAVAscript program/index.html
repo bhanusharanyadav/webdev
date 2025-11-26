@@ -1,0 +1,29 @@
+ <!-- Cart Modal -->
+    <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cartModalLabel">
+                        <i class="fas fa-shopping-cart me-2"></i>Your Cart
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body cart-modal-body">
+                    <div id="cartItemsContainer">
+                        <!-- Cart items will be dynamically inserted here -->
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="cart-total w-100 text-center mb-3">
+                        Total: <span id="cartTotal">₹0</span>
+                    </div>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Continue Exploring
+                    </button>
+                    <button type="button" class="btn btn-primary" id="checkoutBtn">
+                        Proceed to Checkout
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
